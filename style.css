@@ -1,1 +1,19 @@
-/* this is css file for Travel Destinations Showcase */
+:root {
+  --primary:#0f766e;
+  --primary-dark:#115e59;
+  --accent-heart:#e11d48;
+  --bg-page:#f8fafc;
+  --bg-card:#ffffff;
+  --text-main:#1e293b;
+  --text-muted:#64748b;
+  --border-light:#e2e8f0;
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 12px 20px -3px rgba(0, 0, 0, 0.12);
+  --radius: 12px;
+  --transition: 0.3s ease;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
