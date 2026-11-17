@@ -24,9 +24,28 @@ body {
   line-height: 1.6;
 }
 .site-header {
-  background: linear-gradient(135deg, #0f172a 0%, #062a30 100%);
+  background: linear-gradient(135deg, #d213af 50%, #0ec5e5 100%);
   color: #ffffff;
   text-align: center;
   padding: 3.5rem 1.5rem;
   margin-bottom: 20px;
+}
+.site-header h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.2rem;
+}
+.site-header p {
+  font-size: 1.1rem;
+  color: #a0c0be;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+input[name="season-filter"] {
+  display: none;
 }
