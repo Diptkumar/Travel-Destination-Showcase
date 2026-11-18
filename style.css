@@ -69,4 +69,25 @@ input[name="season-filter"] {
   transition: all var(--transition);
   user-select: none;
 }
-
+.filter-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+#filter-all:checked ~ .filter-controls label[for="filter-all"],
+#filter-spring:checked ~ .filter-controls label[for="filter-spring"],
+#filter-summer:checked ~ .filter-controls label[for="filter-summer"],
+#filter-autumn:checked ~ .filter-controls label[for="filter-autumn"],
+#filter-winter:checked ~ .filter-controls label[for="filter-winter"],
+#filter-monsoon:checked ~ .filter-controls label[for="filter-monsoon"] {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+#filter-spring:checked ~ .destinations-grid .card:not(.season-spring),
+#filter-summer:checked ~ .destinations-grid .card:not(.season-summer),
+#filter-autumn:checked ~ .destinations-grid .card:not(.season-autumn),
+#filter-winter:checked ~ .destinations-grid .card:not(.season-winter),
+#filter-monsoon:checked ~ .destinations-grid .card:not(.season-monsoon) {
+  display: none;
+}
