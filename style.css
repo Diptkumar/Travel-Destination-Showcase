@@ -91,3 +91,19 @@ input[name="season-filter"] {
 #filter-monsoon:checked ~ .destinations-grid .card:not(.season-monsoon) {
   display: none;
 }
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.card {
+  background-color:#FCFAF7;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  border: 1px solid #E5E9EB;
+  transition: transform var(--transition), box-shadow var(--transition);
+  display: flex;
+  flex-direction: column;
+}
