@@ -257,3 +257,8 @@ input[name="season-filter"] {
   letter-spacing: 0.5px;
 }
 
+.comparison-table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+
