@@ -175,3 +175,8 @@ input[name="season-filter"] {
 .fav-label:hover {
   transform: scale(1.12);
 }
+.fav-checkbox:checked + .fav-label {
+  color: var(--accent-heart);
+  background-color: #ffe4e6;
+  transform: scale(1.15);
+}
