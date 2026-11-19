@@ -24,7 +24,7 @@ body {
   line-height: 1.6;
 }
 .site-header {
-  background: linear-gradient(135deg, #d213af 50%, #0ec5e5 100%);
+  background: var(--primary-dark);
   color: #ffffff;
   text-align: center;
   padding: 3.5rem 1.5rem;
