@@ -243,3 +243,9 @@ input[name="season-filter"] {
   text-align: left;
   min-width: 600px;
 }
+.comparison-table th,
+.comparison-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
