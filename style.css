@@ -234,5 +234,7 @@ input[name="season-filter"] {
   margin-bottom: 2rem;
   font-size: 0.98rem;
 }
-
+.table-responsive {
+  overflow-x: auto;
+}
 
