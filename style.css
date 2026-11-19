@@ -214,5 +214,25 @@ input[name="season-filter"] {
   color: var(--text-muted);
   font-size: 0.95rem;
 }
+.comparison-section {
+  background-color: var(--bg-card);
+  padding: 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-light);
+}
+
+.comparison-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  font-size: 0.98rem;
+}
 
 
