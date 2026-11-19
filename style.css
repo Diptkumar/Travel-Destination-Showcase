@@ -187,3 +187,14 @@ input[name="season-filter"] {
   flex-direction: column;
   background-color: #ffffff;
 }
+.season-tag {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  margin-bottom: 0.75rem;
+}
