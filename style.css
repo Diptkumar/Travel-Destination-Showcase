@@ -172,3 +172,6 @@ input[name="season-filter"] {
   user-select: none;
   z-index: 2;
 }
+.fav-label:hover {
+  transform: scale(1.12);
+}
