@@ -198,3 +198,19 @@ input[name="season-filter"] {
   border-radius: 50px;
   margin-bottom: 0.75rem;
 }
+.tag-spring { background-color: #fce7f3; color: #be185d; }
+.tag-summer { background-color: #fef3c7; color: #b45309; }
+.tag-autumn { background-color: #ffedd5; color: #c2410c; }
+.tag-winter { background-color: #e0f2fe; color: #0369a1; }
+.tag-monsoon { background-color: #dcfce7; color: #15803d; }
+
+.card-body h2 {
+  font-size: 1.35rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+.card-body p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
