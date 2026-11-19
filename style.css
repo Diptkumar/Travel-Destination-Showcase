@@ -150,3 +150,6 @@ input[name="season-filter"] {
 .card:hover .img-overlay {
   opacity: 1;
 }
+.fav-checkbox {
+  display: none;
+}
