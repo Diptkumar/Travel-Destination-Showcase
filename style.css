@@ -133,3 +133,20 @@ input[name="season-filter"] {
 .card:hover .card-media img {
   transform: scale(1.1);
 }
+.img-overlay { 
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15, 23, 42, 0.85) 0%, rgba(15, 23, 42, 0.1) 60%, transparent 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.25rem;
+  opacity: 0;
+  transition: opacity var(--transition);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.card:hover .img-overlay {
+  opacity: 1;
+}
