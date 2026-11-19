@@ -248,4 +248,12 @@ input[name="season-filter"] {
   padding: 1rem 1.25rem;
   border-bottom: 1px solid var(--border-light);
 }
+.comparison-table thead th {
+  background-color: #f1f5f9;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
 
