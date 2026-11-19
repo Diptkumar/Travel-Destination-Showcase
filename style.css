@@ -237,4 +237,9 @@ input[name="season-filter"] {
 .table-responsive {
   overflow-x: auto;
 }
-
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 600px;
+}
